@@ -109,13 +109,10 @@
     <!-- 取货付款弹窗 -->
     <el-dialog v-model="pickupVisible" title="确认取货付款" width="400px">
       <el-form label-width="80px">
-        <el-form-item
-          label="回收�?>
+        <el-form-item label="回收品类">
           <span>{{ currentOrder?.itemName }}</span>
         </el-form-item>
-        <el-form-item label="
-          联系�?
-        >
+        <el-form-item label="联系人">
           <span
             >{{ currentOrder?.contactName }} ({{
               currentOrder?.contactPhone
